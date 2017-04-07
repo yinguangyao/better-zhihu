@@ -8,7 +8,7 @@ $(function(){
 		if($(this).scrollTop()%1000 == 0) {
 			$(".feed-item-hook").each(function() {
 				$(this).find(".feed-title").each(function() {
-					if($(this).html().toUpperCase().indexOf("lIVE") > 0) {
+					if($(this).html().toUpperCase().indexOf("LIVE") > 0) {
 						$(this).hide();
 					}
 				})
